@@ -1,5 +1,5 @@
-import  { test } from './test'
+import Reveal from 'reveal.js/js/reveal';
 
-console.log("HELLO PARCEL");
-console.log(test.hello);
-
+Reveal.initialize({
+    controls: true
+});
